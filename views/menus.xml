@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+        <menuitem id="hotel_management_root"
+              name="Hotel Management"
+              sequence="1"/>
+
+
+
+
+    <menuitem id="res_settings_root"
+              name="settings"
+              parent="hotel_management_root"
+              sequence="10"/>
+
+
+
+
+
+
+
+
+
+
+        <menuitem id="floor_root"
+              name="Floor"
+              parent="hotel_management_root"
+              sequence="7"/>
+
+
+
+
+
+
+
+        <menuitem id="service_id"
+              name="service"
+              parent="hotel_management_root"
+              sequence="9"/>
+
+
+
+
+    <menuitem id="restaurant_root"
+              name="Restaurant"
+              parent="hotel_management_root"
+              sequence="2"/>
+
+
+
+        <menuitem id="amenity_id"
+              name="amenity"
+              parent="hotel_management_root"
+              sequence="10"/>
+
+
+
+
+
+        <menuitem id="rooms_id"
+              name="rooms"
+              parent="hotel_management_root"
+              sequence="10"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</odoo>
